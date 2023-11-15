@@ -1,22 +1,14 @@
-feature/login
-import Image from 'next/image'
-import Display from './Components/Display'
 
-
+import Sidebar from "./components/Sidebar";
+import Login from "./login/page";
 
 export default function Home() {
-  return (
-    <Display/>
-    // <Login/>
-    // <Subjects/>
-    // <Parents/>
-  
-
-export default function Home() {
-  return (
+  return(
     <main>
-
-    </main>
- dev
+      {/* <Sidebar/> */}
+      <Login/>
+    </main>    
+                                                                                                                                        
   )
-}
+
+  }
